@@ -1,9 +1,9 @@
 {
   "name": "Mao Kim Huong Portfolio",
-  "short_name": "MKH",
+  "short_name": "MKH Portfolio",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#1abc9c",
   "theme_color": "#1abc9c",
   "description": "Full-stack developer portfolio",
   "icons": [

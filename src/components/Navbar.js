@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-// import "../styles/p"
 
 const navItems = [
   { href: "/", label: "HOME" },
-
   { href: "/about", label: "ABOUT" },
   { href: "/skill", label: "SKILL" },
   { href: "/projects", label: "PROJECTS" },
@@ -19,11 +17,10 @@ export default function Navbar() {
       <ul className="dock-list">
         {navItems.map((item) => (
           <li key={item.href}>
-            <Link
-              href={item.href}
-              className={`dock-link${router.pathname === item.href ? " active" : ""}`}
-            >
-              {item.label}
+            <Link href={item.href} passHref>
+              <a className={`dock-link${router.pathname === item.href ? " active" : ""}`}>
+                {item.label}
+              </a>
             </Link>
           </li>
         ))}

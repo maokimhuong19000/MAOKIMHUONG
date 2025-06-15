@@ -1,6 +1,6 @@
 // pages/_app.js
 import Head from "next/head";
-import "../styles/globals.css";
+import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
@@ -27,10 +27,10 @@ function MyApp({ Component, pageProps }) {
           content="Full-stack developer specializing in React, Next.js, Node.js, PHP, Flutter."
         />
         <meta property="og:image" content="/profile.jpeg" />
-        <meta property="og:url" content="https://yourdomain.com" />
+        <meta property="og:url" content="https://maokimhuong.vercel.app/" />
       </Head>
       <Component {...pageProps} />
-      <Navbar /> 
+    
     </>
   );
 }
