@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+// import "../styles/p"
 
 const navItems = [
   { href: "/", label: "HOME" },

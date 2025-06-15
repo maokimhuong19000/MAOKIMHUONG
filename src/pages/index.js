@@ -8,9 +8,8 @@ export async function getStaticProps() {
 export default function Home() {
   
   return (
-    <div>
-     
-      <Navbar />
+    <div>   
+     <main className="main-container">
       <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Image
           src="/profile.jpeg"
@@ -47,6 +46,7 @@ export default function Home() {
           </div>
       </section>
       {/* <Footer /> */}
+      </main>
     </div>
   );
 }

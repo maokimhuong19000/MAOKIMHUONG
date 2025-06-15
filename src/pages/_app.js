@@ -1,5 +1,7 @@
 // pages/_app.js
 import Head from "next/head";
+import "../styles/globals.css";
+import Navbar from '../components/Navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -28,6 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://yourdomain.com" />
       </Head>
       <Component {...pageProps} />
+      <Navbar /> 
     </>
   );
 }
