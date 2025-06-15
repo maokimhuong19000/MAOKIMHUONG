@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://maokimhuong.vercel.app/" />
       </Head>
       <Component {...pageProps} />
-    
+    <Navbar />
     </>
   );
 }
