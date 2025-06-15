@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
+import Head from "next/head";
+export async function getStaticProps() {
+  return { props: {} };
+}
 export default function Home() {
+  
   return (
     <div>
      

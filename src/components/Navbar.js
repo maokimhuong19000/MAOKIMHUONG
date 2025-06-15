@@ -2,6 +2,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const navItems = [
+  { href: "/", label: "HOME" },
+
   { href: "/about", label: "ABOUT" },
   { href: "/skill", label: "SKILL" },
   { href: "/projects", label: "PROJECTS" },
